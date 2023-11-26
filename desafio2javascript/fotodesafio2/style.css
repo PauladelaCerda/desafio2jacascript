@@ -1,0 +1,29 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background: linear-gradient(to bottom right, rgb(127, 127, 241), rgb(226, 148, 161));
+}
+body h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  font-family: "Grandstander", cursive;
+  font-size: 30px;
+}
+body .image-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh;
+}
+body .image-container img {
+  margin-top: 30px;
+  width: 400px;
+  height: 300px;
+  border: 2px solid red;
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */
